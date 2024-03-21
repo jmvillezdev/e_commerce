@@ -27,7 +27,7 @@ p {
 /* NAV */
 
 .nav__container {
-    padding: 0 24px;
+    padding: 16px 24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,6 +228,7 @@ img {
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -271,4 +272,18 @@ img {
     text-decoration: line-through;
     padding-right: 4px;
     color: #a0a0a0
+}
+
+
+/* EXPLORE */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.button__container{
+    display: flex;
+    justify-content: center;
 }
